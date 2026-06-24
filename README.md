@@ -4,6 +4,11 @@ Sistem analisis prediktif berbasis Kecerdasan Buatan (AI) yang dirancang khusus 
 
 Aplikasi ini ditenagai oleh algoritma komputasi **Random Forest Classifier** tingkat lanjut yang telah dioptimasi melalui fase *Hyperparameter Tuning* intensif untuk memastikan stabilitas prediksi yang tinggi pada skala data operasional global.
 
+Oleh : Salsa Seva Yuliana
+NIM : A11.2022.14672
+
+Link Streamlit : https://predictive-churn-guard-zrynthhxhrwgptclodqvvm.streamlit.app/
+
 ---
 
 ## 🎯 Value Proposition & Fitur Utama Dashboard
