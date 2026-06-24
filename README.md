@@ -58,34 +58,30 @@ Untuk mereplikasi dan menjalankan lingkungan sistem ini pada perangkat komputer 
    Buat ruang kerja virtual terisolasi guna menghindari konflik versi library global komputer:
    ```bash
    python -m venv .venv
-```
 
 2. **Aktivasi Ruang Kerja Virtual**  
    * **Windows (Command Prompt/PowerShell)**: 
      ```bash
-.venv\Scripts\activate
-```
+     .venv\Scripts\activate
    * **Mac/Linux**: 
      ```bash
-source .venv/bin/activate
-```
+     source .venv/bin/activate
 
 3. **Instalasi Pustaka Dependensi**  
    Pasang paket ekosistem data science sesuai standar kalkulasi model melalui berkas manifest:
    ```bash
-pip install -r requirements.txt
-```
+   pip install -r requirements.txt
 
 4. **Inisiasi Server Aplikasi**  
    Aktifkan server lokal untuk membuka dashboard pada browser internal secara otomatis:
    ```bash
    streamlit run app.py
-```
 
 ### Opsi B: Deployment Produksi Global (Streamlit Cloud Integration)
 Untuk mengonlinekan dashboard agar dapat diakses secara publik 24 jam oleh jajaran stakeholder eksternal tanpa infrastruktur fisik lokal, ikuti prosedur orkestrasi cloud berikut:
 
 1. **Otentikasi Platform Cloud**  
+   ```bash
    Akses portal resmi **[share.streamlit.io](https://share.streamlit.io)** dan lakukan proses masuk (*Sign In*) menggunakan akun GitHub yang menyimpan repositori kode ini.
 
 2. **Inisiasi Aplikasi Baru**  
